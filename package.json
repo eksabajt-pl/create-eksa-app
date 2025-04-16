@@ -1,0 +1,32 @@
+{
+  "name": "create-eksa-app",
+  "version": "1.0.0",
+  "description": "Starter kit for eksabajt.pl next.js apps",
+  "main": "index.js",
+  "bin":{
+ 	"create-eksa-app":"./cli/src/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eksabajt-pl/create-eksa-app.git"
+  },
+  "keywords": [
+    "starter",
+    "kit",
+    "eksabajt",
+    "app",
+    "nextjs"
+  ],
+  "author": "eksabajt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eksabajt-pl/create-eksa-app/issues"
+  },
+  "homepage": "https://github.com/eksabajt-pl/create-eksa-app#readme"
+}
