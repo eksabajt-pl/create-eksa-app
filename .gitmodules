@@ -1,0 +1,6 @@
+[submodule "cli/template/base/base"]
+	path = cli/template/base/base
+	url = https://github.com/eksabajt-pl/create-eksa-app.git
+[submodule "base"]
+	path = base
+	url = https://github.com/eksabajt-pl/create-eksa-app.git
