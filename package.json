@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Starter kit for eksabajt.pl next.js apps",
   "main": "index.js",
-  "bin":{
- 	"create-eksa-app":"./cli/src/index.js"
+  "bin": {
+    "create-eksa-app": "./cli/src/cli.js"
   },
   "directories": {
     "test": "test"
