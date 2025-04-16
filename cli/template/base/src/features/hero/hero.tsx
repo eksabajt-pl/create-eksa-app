@@ -9,7 +9,7 @@ import LoveButton from "./buttons/loveButton";
 
 export default function Hero() {
   return (
-    <main className="noise">
+    <main>
       <svg
         className="absolute inset-0 -z-10 h-full w-full mask-b-from-50% stroke-neutral-800/20"
         aria-hidden="true"

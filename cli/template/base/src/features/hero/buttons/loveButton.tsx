@@ -11,7 +11,6 @@ export default function LoveButton() {
       onClick={toggle}
       size={22}
       fill={isToggled ? "var(--brand)" : "transparent"}
-      stroke={isToggled ? "var(--brand)" : "white"}
       strokeWidth={2}
     />
   );
