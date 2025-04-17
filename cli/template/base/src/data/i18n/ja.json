@@ -1,0 +1,13 @@
+{
+  "LanguageDropdown": {
+    "choose": "言語を選択"
+  },
+  "Template": {
+    "description": "create-eksa-app を使用して生成されたボイラープレート",
+    "docs": "ドキュメント",
+    "count": "{count, plural, =1 {1回クリックされました} other {#回クリックされました} }",
+    "madewith": "作成ツール：",
+    "landingpage": "私たちのサイト",
+    "by": "eksabajt.pl 提供"
+  }
+}

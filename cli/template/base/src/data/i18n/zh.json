@@ -1,0 +1,13 @@
+{
+  "LanguageDropdown": {
+    "choose": "选择语言"
+  },
+  "Template": {
+    "description": "使用 create-eksa-app 生成的样板",
+    "docs": "文档",
+    "count": "{count, plural, =1 {点击了 1 次} other {点击了 # 次} }",
+    "madewith": "基于",
+    "landingpage": "我们的网站",
+    "by": "由 eksabajt.pl"
+  }
+}

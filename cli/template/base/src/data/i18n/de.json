@@ -1,0 +1,13 @@
+{
+  "LanguageDropdown": {
+    "choose": "Sprache wählen"
+  },
+  "Template": {
+    "description": "Boilerplate generiert mit create-eksa-app",
+    "docs": "Dokumentation",
+    "count": "{count, plural, =1 {1 Mal geklickt} other {# Mal geklickt} }",
+    "madewith": "Erstellt mit",
+    "landingpage": "Unsere Seite",
+    "by": "von eksabajt.pl"
+  }
+}

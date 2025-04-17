@@ -2,13 +2,15 @@ import Image from "next/image";
 import favicon from "@/app/favicon.ico";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { BookMarked, Github } from "lucide-react";
+import { BookMarked, Github, Globe } from "lucide-react";
 import Link from "next/link";
-import IncrementButton from "./buttons/incrementButton";
-import LoveButton from "./buttons/loveButton";
-import CodeSnippet from "./codeSnippet";
+import IncrementButton from "./components/buttons/incrementButton";
+import LoveButton from "./components/buttons/loveButton";
+import CodeSnippet from "./components/codeSnippet";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations("Template");
   return (
     <main>
       <svg
@@ -43,26 +45,29 @@ export default function Hero() {
         />
         <div className="col-span-2 flex flex-col gap-4 md:col-span-1">
           <CodeSnippet code="npm create eksa-app" />
-          <p className="flex flex-row gap-2">
-            Boilerplate generated using create-eksa-app
-          </p>
-          <div className="grid grid-cols-2 gap-2 md:grid-cols-7">
+          <p className="flex flex-row gap-2">{t("description")}</p>
+          <div className="grid grid-cols-2 gap-2 md:grid-cols-6">
             <IncrementButton />
-            <Button asChild className="col-span-1 cursor-pointer md:col-span-2">
+            <Button asChild className="col-span-1 cursor-pointer md:col-span-3">
               <Link href="https://github.com/eksabajt-pl/create-eksa-app">
                 <Github />
                 Github
               </Link>
             </Button>
-            <Button asChild className="col-span-1 cursor-pointer md:col-span-2">
+            <Button asChild className="col-span-1 cursor-pointer md:col-span-3">
               <Link href="#docs">
-                <BookMarked /> Docs
+                <BookMarked /> {t("docs")}
+              </Link>
+            </Button>
+            <Button asChild className="col-span-1 cursor-pointer md:col-span-3">
+              <Link href="https://create.eksabajt.pl/">
+                <Globe /> {t("landingpage")}
               </Link>
             </Button>
           </div>
         </div>
         <p className="col-span-2 flex flex-row items-center justify-center gap-2 pt-2 text-sm text-nowrap">
-          Made with <LoveButton /> by eksabajt.pl
+          {t("madewith")} <LoveButton /> {t("by")}
         </p>
       </Card>
     </main>
