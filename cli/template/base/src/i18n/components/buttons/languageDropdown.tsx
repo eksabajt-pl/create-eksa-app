@@ -33,9 +33,6 @@ export default function LanguageDropdown() {
   }
   const { locales } = routing;
   const t = useTranslations("LanguageDropdown");
-  const regionName = new Intl.DisplayNames([locale as Locale], {
-    type: "language",
-  });
   return (
     <DropdownMenu>
       <DropdownMenuTrigger disabled={isPending} className="cursor-pointer">
@@ -51,7 +48,9 @@ export default function LanguageDropdown() {
           {locales.map((locale, index) => (
             <DropdownMenuRadioItem value={locale} key={index}>
               <span className="font-bold">{locale.toUpperCase()}</span>
-              {regionName.of(locale.toUpperCase())}
+              {new Intl.DisplayNames([locale as Locale], {
+                type: "language",
+              }).of(locale.toUpperCase())}
             </DropdownMenuRadioItem>
           ))}
         </DropdownMenuRadioGroup>
