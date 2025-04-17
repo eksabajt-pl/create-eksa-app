@@ -1,0 +1,11 @@
+{
+  "LanguageDropdown": {
+    "choose": "Choose language"
+  },
+
+  "Hero": {
+    "way": "The easiest way to create a APP",
+    "featuring": "Featuring:",
+    "docs": "Documentation"
+  }
+}
