@@ -1,8 +1,10 @@
 import { Link } from "@/i18n/navigation";
 import favicon from "@/app/favicon.ico";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
   return (
     <footer className="flex flex-col items-center border-t py-12">
       <div className="container max-w-7xl">
@@ -15,9 +17,7 @@ export default function Footer() {
               <Image height={32} alt="Eksabajt.pl favicon" src={favicon} />
               <span>create-eksa-app</span>
             </Link>
-            <p className="text-muted-foreground">
-              The modern way to build fullstack Next.js applications
-            </p>
+            <p className="text-muted-foreground">{t("description")}</p>
           </div>
           <div>
             <h3 className="mb-4 font-bold">Documentation</h3>
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-muted-foreground mt-12 border-t pt-8 text-center">
-          <p>© {new Date().getFullYear()} Eksabajt.pl. All rights reserved.</p>
+          <p>{t("copyright", { year: new Date().getFullYear() })}</p>
         </div>
       </div>
     </footer>

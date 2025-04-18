@@ -1,4 +1,5 @@
 import { Globe, Shield } from "lucide-react";
+import { useTranslations } from "next-intl";
 import {
   SiDrizzle,
   SiShadcnui,
@@ -7,10 +8,10 @@ import {
 } from "react-icons/si";
 
 export default function Features() {
+  const t = useTranslations("Hero.features");
   const features = [
     {
-      title: "TailwindCSS",
-      description: "Utility-first CSS framework for rapid UI development",
+      key: "tw",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-300 text-blue-400">
           <SiTailwindcss size={24} />
@@ -18,9 +19,7 @@ export default function Features() {
       ),
     },
     {
-      title: "Shadcn/UI",
-      description:
-        "Beautiful, accessible UI components built with Radix UI and Tailwind CSS",
+      key: "shadcnui",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-black text-white">
           <SiShadcnui />
@@ -28,9 +27,7 @@ export default function Features() {
       ),
     },
     {
-      title: "Drizzle ORM",
-      description:
-        "TypeScript ORM with a focus on type safety and developer experience",
+      key: "drizzle",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-neutral-800 text-yellow-200">
           <SiDrizzle size={24} />
@@ -38,9 +35,7 @@ export default function Features() {
       ),
     },
     {
-      title: "Auth.js",
-      description:
-        "Authentication for Next.js with multiple providers and strategies",
+      key: "authjs",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-green-500/20 text-green-500">
           <Shield fill="rgb(3, 200, 81)" />
@@ -48,9 +43,7 @@ export default function Features() {
       ),
     },
     {
-      title: "Next-Intl",
-      description:
-        "Internationalization for Next.js with type-safe translations",
+      key: "nextintl",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-500/20 text-blue-500">
           <Globe />
@@ -58,9 +51,7 @@ export default function Features() {
       ),
     },
     {
-      title: "TypeScript",
-      description:
-        "Static type checking for JavaScript to improve developer experience",
+      key: "ts",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center overflow-clip rounded-lg bg-white text-blue-700">
           <SiTypescript size={64} />
@@ -76,10 +67,9 @@ export default function Features() {
     >
       <div className="container flex flex-col items-center p-4">
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-3xl font-bold">Powerful Features</h2>
+          <h2 className="mb-4 text-3xl font-bold">{t("title")}</h2>
           <p className="text-muted-foreground mx-auto max-w-2xl text-xl">
-            Everything you need to build modern, type-safe fullstack
-            applications with Next.js
+            {t("description")}
           </p>
         </div>
         <div className="grid max-w-7xl grid-cols-1 gap-8 p-4 md:grid-cols-2 lg:grid-cols-3">
@@ -89,8 +79,13 @@ export default function Features() {
               className="bg-background rounded-lg border p-6 shadow-sm"
             >
               <div className="mb-4">{feature.icon}</div>
-              <h3 className="mb-2 text-xl font-bold">{feature.title}</h3>
-              <p className="text-muted-foreground">{feature.description}</p>
+              <h3 className="mb-2 text-xl font-bold">
+                {t(feature.key + ".title")}
+              </h3>
+              <p className="text-muted-foreground">
+                {" "}
+                {t(feature.key + ".description")}
+              </p>
             </div>
           ))}
         </div>

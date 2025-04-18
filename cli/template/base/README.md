@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a project bootstrapped with [`create-eksa-app`](https://create.eksabajt.pl/).
+
+## Why?
+
+Well, we've figured that when you're developing an app, most of the time you'd be repeating the same code and commands over and over... So why bother, why spend 5 minutes initializing a project while you could spend x months to make a tool that does exactly that.
+
+[!Relevant xkcd comic](https://imgs.xkcd.com/comics/automation.png "relevant xkcd comic")
+
+So we are trying to make a tool that would be useful for us and would give us at least half an hour more time when setting up a new project. This tool would simply create a project ready with tailwindcss, shadcn/ui, next-theme, drizzle, auth.js, next-intl and more... so we can focus on quickly shipping our app.
+
+[!Yet another relevant xkcd comic](https://imgs.xkcd.com/comics/is_it_worth_the_time.png "yet another relevant xkcd comic")
+
+## Initializing a project
+
+```bash
+npm create eksa-app@latest
+```
 
 ## Getting Started
 
-First, run the development server:
+Change directory into your app and then run the development server:
 
 ```bash
+cd my-eksabajt-app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
