@@ -1,0 +1,96 @@
+{
+  "LanguageDropdown": {
+    "choose": "选择语言"
+  },
+  "Footer": {
+    "copyright": "版权所有 © {year}。保留所有权利。",
+    "description": "构建全栈 Next.js 应用程序的现代方式"
+  },
+  "Messages": {
+    "username": "请输入您的用户名",
+    "message": "请撰写您的消息"
+  },
+  "Hero": {
+    "way": "创建 APP 的最简单方式",
+    "featuring": "特色功能：",
+    "docs": "文档",
+
+    "features": {
+      "title": "强大的功能",
+      "description": "构建现代、类型安全的全栈 Next.js 应用程序所需的一切",
+      "tw": {
+        "title": "TailwindCSS",
+        "description": "用于快速 UI 开发的实用优先 CSS 框架"
+      },
+      "shadcnui": {
+        "title": "Shadcn/UI",
+        "description": "使用 Radix UI 和 Tailwind CSS 构建的美观、易访问的 UI 组件"
+      },
+      "drizzle": {
+        "title": "Drizzle ORM",
+        "description": "注重类型安全和开发人员体验的 TypeScript ORM"
+      },
+      "authjs": {
+        "title": "Auth.js",
+        "description": "为 Next.js 提供多种提供商和策略的身份验证"
+      },
+      "nextintl": {
+        "title": "Next-Intl",
+        "description": "为 Next.js 提供类型安全的国际化翻译"
+      },
+      "ts": {
+        "title": "TypeScript",
+        "description": "JavaScript 的静态类型检查，以改善开发人员体验"
+      }
+    },
+    "howitworks": {
+      "rtfm": "阅读文档",
+      "title": "它是如何工作的",
+      "description": "使用完全配置的 Next.js 应用程序在几分钟内启动并运行",
+      "01": {
+        "number": "01",
+        "title": "创建您的项目",
+        "description": "运行创建命令并按照交互式提示设置您的项目",
+        "code": "npm create eksa-app@latest"
+      },
+      "02": {
+        "number": "02",
+        "title": "配置您的技术栈",
+        "description": "只需选择您的项目名称，然后从列表中选择一个（或多个）模板",
+        "code": "✓ What template would you like to use?\n  ✓ Landing page\n  × Blog  \n  × Social\n  ✓ SaaS\n  × Store"
+      },
+      "03": {
+        "number": "03",
+        "title": "开始开发",
+        "description": "导航到您的项目目录并启动开发服务器",
+        "code": "cd my-app\nnpm run dev"
+      }
+    },
+    "faqs": {
+      "questions": "仍有问题？",
+      "discussion": "在 GitHub 上参与讨论",
+      "title": "常见问题解答",
+      "description": "您需要了解的有关 create-eksa-app 的一切",
+      "what": {
+        "question": "什么是 create-eksa-app？",
+        "answer": "create-eksa-app 是一个现代化的全栈 Next.js 入门模板，包含 TailwindCSS、Shadcn/UI、Drizzle ORM、Auth.js 和用于国际化的 next-intl。它为使用最佳实践构建 Web 应用程序提供了坚实的基础。"
+      },
+      "free": {
+        "question": "create-eksa-app 是免费使用的吗？",
+        "answer": "是的，create-eksa-app 完全免费且开源。您可以将其用于个人或商业项目，没有任何限制。"
+      },
+      "technologies": {
+        "question": "我需要了解所有包含的技术吗？",
+        "answer": "虽然建议熟悉 Next.js 和 React，但 create-eksa-app 的设计旨在让所有技能水平的开发人员都能轻松上手。文档为每项包含的技术提供了指南。"
+      },
+      "customization": {
+        "question": "我可以自定义模板吗？",
+        "answer": "create-eksa-app 旨在作为一个起点。您可以添加、删除或修改模板的任何部分以满足您项目的需求。"
+      },
+      "deployment": {
+        "question": "如何部署使用 create-eksa-app 引导的项目？",
+        "answer": "create-eksa-app 项目可以部署到任何支持 Next.js 的平台，例如 Vercel、Netlify 或您自己的服务器。文档包含针对流行平台的部署指南。"
+      }
+    }
+  }
+}
