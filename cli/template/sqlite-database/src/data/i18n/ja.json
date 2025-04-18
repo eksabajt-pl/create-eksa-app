@@ -1,0 +1,96 @@
+{
+  "LanguageDropdown": {
+    "choose": "言語を選択"
+  },
+  "Footer": {
+    "copyright": "Copyright © {year}. All Rights Reserved.",
+    "description": "フルスタックNext.jsアプリケーションを構築するモダンな方法"
+  },
+  "Messages": {
+    "username": "ユーザー名を入力してください",
+    "message": "メッセージを書いてください"
+  },
+  "Hero": {
+    "way": "APP を作成する最も簡単な方法",
+    "featuring": "特徴：",
+    "docs": "ドキュメンテーション",
+
+    "features": {
+      "title": "強力な機能",
+      "description": "モダンでタイプセーフなフルスタックアプリケーションをNext.jsで構築するために必要なすべて",
+      "tw": {
+        "title": "TailwindCSS",
+        "description": "迅速なUI開発のためのユーティリティファーストCSSフレームワーク"
+      },
+      "shadcnui": {
+        "title": "Shadcn/UI",
+        "description": "Radix UIとTailwind CSSで構築された、美しくアクセシブルなUIコンポーネント"
+      },
+      "drizzle": {
+        "title": "Drizzle ORM",
+        "description": "型安全性と開発者体験に重点を置いたTypeScript ORM"
+      },
+      "authjs": {
+        "title": "Auth.js",
+        "description": "複数のプロバイダーと戦略を備えたNext.jsの認証"
+      },
+      "nextintl": {
+        "title": "Next-Intl",
+        "description": "タイプセーフな翻訳を備えたNext.jsの国際化対応"
+      },
+      "ts": {
+        "title": "TypeScript",
+        "description": "開発者体験を向上させるためのJavaScriptの静的型チェック"
+      }
+    },
+    "howitworks": {
+      "rtfm": "ドキュメントを読む",
+      "title": "仕組み",
+      "description": "完全に設定済みのNext.jsアプリケーションで数分で起動して実行",
+      "01": {
+        "number": "01",
+        "title": "プロジェクトを作成する",
+        "description": "作成コマンドを実行し、対話型のプロンプトに従ってプロジェクトを設定します",
+        "code": "npm create eksa-app@latest"
+      },
+      "02": {
+        "number": "02",
+        "title": "スタックを設定する",
+        "description": "プロジェクト名を選択し、リストからテンプレート（または複数のテンプレート）を選択するだけです",
+        "code": "✓ What template would you like to use?\n  ✓ Landing page\n  × Blog  \n  × Social\n  ✓ SaaS\n  × Store"
+      },
+      "03": {
+        "number": "03",
+        "title": "開発を開始する",
+        "description": "プロジェクトディレクトリに移動し、開発サーバーを起動します",
+        "code": "cd my-app\nnpm run dev"
+      }
+    },
+    "faqs": {
+      "questions": "まだ質問がありますか？",
+      "discussion": "GitHubでのディスカッションに参加する",
+      "title": "よくある質問",
+      "description": "create-eksa-appについて知っておくべきすべて",
+      "what": {
+        "question": "create-eksa-appとは何ですか？",
+        "answer": "create-eksa-appは、TailwindCSS、Shadcn/UI、Drizzle ORM、Auth.js、および国際化のためのnext-intlを含む、モダンなフルスタックNext.jsスターターテンプレートです。ベストプラクティスを用いてWebアプリケーションを構築するための堅固な基盤を提供します。"
+      },
+      "free": {
+        "question": "create-eksa-appは無料で使用できますか？",
+        "answer": "はい、create-eksa-appは完全に無料でオープンソースです。個人または商用プロジェクトに制限なく使用できます。"
+      },
+      "technologies": {
+        "question": "含まれているすべての技術を知っている必要がありますか？",
+        "answer": "Next.jsとReactに精通していることが推奨されますが、create-eksa-appはあらゆるスキルレベルの開発者が利用しやすいように設計されています。ドキュメントには、含まれる各技術のガイドが提供されています。"
+      },
+      "customization": {
+        "question": "テンプレートをカスタマイズできますか？",
+        "answer": "create-eksa-appは出発点として設計されています。プロジェクトのニーズに合わせて、テンプレートの任意の部分を追加、削除、または変更できます。"
+      },
+      "deployment": {
+        "question": "create-eksa-appでブートストラップされたプロジェクトをデプロイするにはどうすればよいですか？",
+        "answer": "create-eksa-appプロジェクトは、Vercel、Netlify、または独自のサーバーなど、Next.jsをサポートする任意のプラットフォームにデプロイできます。ドキュメントには、一般的なプラットフォーム向けのデプロイガイドが含まれています。"
+      }
+    }
+  }
+}
