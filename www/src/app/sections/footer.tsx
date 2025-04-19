@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-muted-foreground mt-12 -mb-6 pt-8 text-center">
-          <div className="absolute left-0 mt-8 w-screen -translate-y-16 border-t"></div>
+          <div className="absolute left-0 mt-8 w-full -translate-y-16 border-t"></div>
           <p>{t("copyright", { year: new Date().getFullYear() })}</p>
         </div>
       </div>
