@@ -1,1 +1,0 @@
-ALTER TABLE "eksabajt"."messages" ALTER COLUMN "createdAt" SET DEFAULT '2025-04-19 21:09:39.275';

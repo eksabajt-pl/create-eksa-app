@@ -1,12 +1,12 @@
 {
-  "id": "29ffcfb3-ea8f-4886-9857-ffe957610b34",
+  "id": "ffd37a4c-ad19-4555-bd71-336213c65c27",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
-    "eksabajt.messages": {
+    "public.messages": {
       "name": "messages",
-      "schema": "eksabajt",
+      "schema": "",
       "columns": {
         "id": {
           "name": "id",
@@ -32,7 +32,7 @@
           "type": "timestamp",
           "primaryKey": false,
           "notNull": false,
-          "default": "'2025-04-19 21:06:41.349'"
+          "default": "'2025-04-19 21:30:37.057'"
         }
       },
       "indexes": {},

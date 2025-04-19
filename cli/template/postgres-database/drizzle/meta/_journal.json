@@ -5,22 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1745096801358,
-      "tag": "0000_lowly_proteus",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1745096979284,
-      "tag": "0001_fancy_nicolaos",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1745097733572,
-      "tag": "0002_elite_zaran",
+      "when": 1745098237068,
+      "tag": "0000_good_puppet_master",
       "breakpoints": true
     }
   ]
