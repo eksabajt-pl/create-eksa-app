@@ -1,0 +1,96 @@
+{
+  "LanguageDropdown": {
+    "choose": "Wybierz język"
+  },
+  "Footer": {
+    "copyright": "Copyright © {year}. Wszelkie prawa zastrzeżone.",
+    "description": "Nowoczesny sposób tworzenia aplikacji fullstack Next.js"
+  },
+  "Messages": {
+    "username": "Wpisz swoją nazwę użytkownika",
+    "message": "Napisz swoją wiadomość"
+  },
+  "Hero": {
+    "way": "Najłatwiejszy sposób na stworzenie APP",
+    "featuring": "Zawiera:",
+    "docs": "Dokumentacja",
+
+    "features": {
+      "title": "Potężne funkcje",
+      "description": "Wszystko, czego potrzebujesz do budowania nowoczesnych, bezpiecznych typowo aplikacji fullstack z Next.js",
+      "tw": {
+        "title": "TailwindCSS",
+        "description": "Framework CSS typu utility-first do szybkiego rozwoju interfejsu użytkownika"
+      },
+      "shadcnui": {
+        "title": "Shadcn/UI",
+        "description": "Piękne, dostępne komponenty interfejsu użytkownika zbudowane z Radix UI i Tailwind CSS"
+      },
+      "drizzle": {
+        "title": "Drizzle ORM",
+        "description": "TypeScript ORM z naciskiem na bezpieczeństwo typów i doświadczenie programisty"
+      },
+      "authjs": {
+        "title": "Auth.js",
+        "description": "Uwierzytelnianie dla Next.js z wieloma dostawcami i strategiami"
+      },
+      "nextintl": {
+        "title": "Next-Intl",
+        "description": "Internacjonalizacja dla Next.js z bezpiecznymi typowo tłumaczeniami"
+      },
+      "ts": {
+        "title": "TypeScript",
+        "description": "Statyczne sprawdzanie typów dla JavaScript w celu poprawy doświadczenia programisty"
+      }
+    },
+    "howitworks": {
+      "rtfm": "Przeczytaj dokumentację",
+      "title": "Jak to działa",
+      "description": "Rozpocznij pracę w kilka minut z w pełni skonfigurowaną aplikacją Next.js",
+      "01": {
+        "number": "01",
+        "title": "Utwórz swój projekt",
+        "description": "Uruchom polecenie tworzenia i postępuj zgodnie z interaktywnymi wskazówkami, aby skonfigurować projekt",
+        "code": "npm create eksa-app@latest"
+      },
+      "02": {
+        "number": "02",
+        "title": "Skonfiguruj swój stos",
+        "description": "Wystarczy wybrać nazwę projektu i wybrać szablon (lub wiele szablonów) z listy",
+        "code": "✓ What template would you like to use?\n  ✓ Landing page\n  × Blog  \n  × Social\n  ✓ SaaS\n  × Store"
+      },
+      "03": {
+        "number": "03",
+        "title": "Zacznij programować",
+        "description": "Przejdź do katalogu projektu i uruchom serwer deweloperski",
+        "code": "cd my-app\nnpm run dev"
+      }
+    },
+    "faqs": {
+      "questions": "Nadal masz pytania?",
+      "discussion": "Dołącz do dyskusji na GitHub",
+      "title": "Często zadawane pytania",
+      "description": "Wszystko, co musisz wiedzieć o create-eksa-app",
+      "what": {
+        "question": "Co to jest create-eksa-app?",
+        "answer": "create-eksa-app to nowoczesny szablon startowy fullstack Next.js, który zawiera TailwindCSS, Shadcn/UI, Drizzle ORM, Auth.js i next-intl do internacjonalizacji. Stanowi solidną podstawę do tworzenia aplikacji internetowych z najlepszymi praktykami."
+      },
+      "free": {
+        "question": "Czy create-eksa-app jest darmowe?",
+        "answer": "Tak, create-eksa-app jest całkowicie darmowe i open source. Możesz go używać do projektów osobistych lub komercyjnych bez żadnych ograniczeń."
+      },
+      "technologies": {
+        "question": "Czy muszę znać wszystkie zawarte technologie?",
+        "answer": "Chociaż znajomość Next.js i React jest zalecana, create-eksa-app został zaprojektowany tak, aby był przystępny dla programistów na wszystkich poziomach umiejętności. Dokumentacja zawiera przewodniki dla każdej z zawartych technologii."
+      },
+      "customization": {
+        "question": "Czy mogę dostosować szablon?",
+        "answer": "create-eksa-app ma być punktem wyjścia. Możesz dodawać, usuwać lub modyfikować dowolną część szablonu, aby dopasować ją do potrzeb swojego projektu."
+      },
+      "deployment": {
+        "question": "Jak wdrożyć projekt utworzony za pomocą create-eksa-app?",
+        "answer": "Projekty create-eksa-app można wdrażać na dowolnej platformie obsługującej Next.js, takiej jak Vercel, Netlify lub własny serwer. Dokumentacja zawiera przewodniki wdrażania dla popularnych platform."
+      }
+    }
+  }
+}
