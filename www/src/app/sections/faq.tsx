@@ -20,7 +20,7 @@ export default function FAQ() {
   ] as const;
 
   return (
-    <section id="faq" className="flex flex-col items-center border-y-1 py-20">
+    <section id="faq" className="flex flex-col items-center border-t-1 py-20">
       <div className="container p-4">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold">{t("title")}</h2>

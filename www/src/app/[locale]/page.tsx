@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <div className="sticky top-0">
-        <div className="pointer-events-none absolute top-0 left-[50%] z-10 h-screen w-full max-w-7xl -translate-x-[50%] border-1 border-y-0 p-4 opacity-[0.5]"></div>
+        <div className="pointer-events-none absolute top-0 left-[50%] z-10 h-screen w-full max-w-7xl -translate-x-[50%] border-1 border-y-0 p-4"></div>
       </div>
       <Features />
       <HowItWorks />

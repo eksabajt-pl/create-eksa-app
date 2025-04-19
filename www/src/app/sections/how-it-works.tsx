@@ -10,7 +10,7 @@ export default function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="bg-muted/30 flex justify-center border-y-1 py-20"
+      className="bg-muted/30 flex justify-center border-t-1 py-20"
     >
       <div className="container p-4">
         <div className="mb-16 text-center">
