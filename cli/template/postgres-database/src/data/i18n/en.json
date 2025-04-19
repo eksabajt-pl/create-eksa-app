@@ -1,0 +1,96 @@
+{
+  "LanguageDropdown": {
+    "choose": "Choose language"
+  },
+  "Footer": {
+    "copyright": "Copyright © {year}. All Rights Reserved.",
+    "description": "The modern way to build fullstack Next.js applications"
+  },
+  "Messages": {
+    "username": "Enter your username",
+    "message": "Write your message"
+  },
+  "Hero": {
+    "way": "The easiest way to create a APP",
+    "featuring": "Featuring:",
+    "docs": "Documentation",
+
+    "features": {
+      "title": "Powerful Features",
+      "description": "Everything you need to build modern, type-safe fullstack applications with Next.js",
+      "tw": {
+        "title": "TailwindCSS",
+        "description": "Utility-first CSS framework for rapid UI development"
+      },
+      "shadcnui": {
+        "title": "Shadcn/UI",
+        "description": "Beautiful, accessible UI components built with Radix UI and Tailwind CSS"
+      },
+      "drizzle": {
+        "title": "Drizzle ORM",
+        "description": "TypeScript ORM with a focus on type safety and developer experience"
+      },
+      "authjs": {
+        "title": "Auth.js",
+        "description": "Authentication for Next.js with multiple providers and strategies"
+      },
+      "nextintl": {
+        "title": "Next-Intl",
+        "description": "Internationalization for Next.js with type-safe translations"
+      },
+      "ts": {
+        "title": "TypeScript",
+        "description": "Static type checking for JavaScript to improve developer experience"
+      }
+    },
+    "howitworks": {
+      "rtfm": "Read the documentation",
+      "title": "How It Works",
+      "description": "Get up and running in minutes with a fully configured Next.js application",
+      "01": {
+        "number": "01",
+        "title": "Create your project",
+        "description": "Run the create command and follow the interactive prompts to set up your project",
+        "code": "npm create eksa-app@latest"
+      },
+      "02": {
+        "number": "02",
+        "title": "Configure your stack",
+        "description": "Just choose your project name, and select a template (or multiple templates) from the list",
+        "code": "✓ What template would you like to use?\n  ✓ Landing page\n  × Blog  \n  × Social\n  ✓ SaaS\n  × Store"
+      },
+      "03": {
+        "number": "03",
+        "title": "Start developing",
+        "description": "Navigate to your project directory and start the development server",
+        "code": "cd my-app\nnpm run dev"
+      }
+    },
+    "faqs": {
+      "questions": "Still have questions?",
+      "discussion": "Join the discussion on GitHub",
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about create-eksa-app",
+      "what": {
+        "question": "What is create-eksa-app?",
+        "answer": "create-eksa-app is a modern fullstack Next.js starter template that includes TailwindCSS, Shadcn/UI, Drizzle ORM, Auth.js, and next-intl for internationalization. It provides a solid foundation for building web applications with best practices."
+      },
+      "free": {
+        "question": "Is create-eksa-app free to use?",
+        "answer": "Yes, create-eksa-app is completely free and open source. You can use it for personal or commercial projects without any restrictions."
+      },
+      "technologies": {
+        "question": "Do I need to know all the included technologies?",
+        "answer": "While familiarity with Next.js and React is recommended, create-eksa-app is designed to be approachable for developers of all skill levels. The documentation provides guides for each included technology."
+      },
+      "customization": {
+        "question": "Can I customize the template?",
+        "answer": "create-eksa-app is designed to be a starting point. You can add, remove, or modify any part of the template to suit your project's needs."
+      },
+      "deployment": {
+        "question": "How do I deploy a project bootstrapped with create-eksa-app?",
+        "answer": "create-eksa-app projects can be deployed to any platform that supports Next.js, such as Vercel, Netlify, or your own server. The documentation includes deployment guides for popular platforms."
+      }
+    }
+  }
+}
