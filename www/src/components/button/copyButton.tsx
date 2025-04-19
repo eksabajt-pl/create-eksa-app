@@ -1,7 +1,7 @@
 import useCopyToClipboard from "@/hooks/useCopyToClipboard";
+import { cn } from "@/lib/utils";
 import { PropsWithClassName } from "@/types/PropsWithClassName";
 import { Check, Copy, MessageCircleWarning } from "lucide-react";
-import { twMerge } from "tailwind-merge";
 
 export default function CopyButton({
   code,
@@ -10,7 +10,7 @@ export default function CopyButton({
   const { status, copyToClipboard } = useCopyToClipboard();
 
   return (
-    <button className={twMerge(className)}>
+    <button className={cn(className)}>
       {status === "idle" ? (
         <Copy onClick={() => copyToClipboard(code)} />
       ) : status === "success" ? (

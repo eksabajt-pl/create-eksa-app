@@ -2,11 +2,11 @@
 import ThemeToggle from "@/theme/components/themeToggle";
 import LanguageDropdown from "@/i18n/components/buttons/languageDropdown";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { twMerge } from "tailwind-merge";
 import Image from "next/image";
 import favicon from "@/app/favicon.ico";
 import { Link } from "@/i18n/navigation";
 import { Github } from "lucide-react";
+import { cn } from "@/lib/utils";
 export default function Header() {
   const [scrollY, setScrollY] = useState(0);
   const updateScroll = useCallback(
@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <div
-      className={twMerge(
+      className={cn(
         "fixed top-0 z-10 flex h-24 w-full flex-row justify-center gap-4 backdrop-blur-none transition-[height,border,backdrop-blur] duration-300",
         isFloating && "bg-background/50 h-16 border-b-1 backdrop-blur-md",
       )}
@@ -40,7 +40,7 @@ export default function Header() {
           <ThemeToggle />
           <Link
             href="https://github.com/eksabajt-pl/create-eksa-app"
-            className={twMerge("cursor-pointer p-4")}
+            className={"cursor-pointer p-4"}
           >
             <Github />
           </Link>
