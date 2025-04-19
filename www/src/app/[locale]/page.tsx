@@ -7,7 +7,7 @@ import Footer from "../sections/footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col overflow-x-hidden">
       <Header />
       <Hero />
       <div className="sticky top-0">
