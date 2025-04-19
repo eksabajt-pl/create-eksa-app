@@ -1,1 +1,0 @@
-docker stop postgres-container && docker remove postgres-container
