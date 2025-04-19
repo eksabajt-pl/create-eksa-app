@@ -1,6 +1,6 @@
 {
   "name": "create-eksa-app",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Starter kit for eksabajt.pl next.js apps",
   "main": "index.js",
   "bin": {
